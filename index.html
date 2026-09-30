@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bruma Helados: helado artesanal, ingredientes nobles y sabores hechos cada día en Buenos Aires."
+    />
+    <title>Bruma Helados | Heladería artesanal</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Bruma Helados, inicio">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Bruma</span>
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li>
+            <a class="active" href="index.html" aria-current="page">Inicio</a>
+          </li>
+          <li><a href="productos.html">Sabores</a></li>
+          <li><a class="nav-button" href="#contacto">Visitarnos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <article class="hero-copy">
+          <p class="eyebrow">Helado artesanal · Buenos Aires</p>
+          <h1 id="hero-title">Un momento de felicidad en cada cucharada.</h1>
+          <p class="hero-text">
+            Sabores honestos, cremosos y hechos cada mañana con ingredientes de
+            estación.
+          </p>
+          <p class="hero-actions">
+            <a class="button button-primary" href="productos.html"
+              >Ver nuestros sabores</a
+            >
+            <a class="text-link" href="#nosotros"
+              >Conocé nuestra historia <span aria-hidden="true">→</span></a
+            >
+          </p>
+        </article>
+
+        <figure class="hero-visual">
+          <img
+            src="/images/hero-helados.jpg"
+            alt="Cuencos con distintos sabores de helado artesanal"
+          />
+          <figcaption>Hecho fresco, todos los días</figcaption>
+        </figure>
+      </section>
+
+      <section class="about" id="nosotros" aria-labelledby="about-title">
+        <p class="section-number" aria-hidden="true">01</p>
+        <article>
+          <p class="eyebrow">Sobre nosotros</p>
+          <h2 id="about-title">Menos secretos.<br />Más sabor.</h2>
+        </article>
+        <p class="about-copy">
+          En Bruma hacemos helado como nos gusta comerlo: con fruta real,
+          chocolate de origen y leche fresca. Nuestro obrador nació como un
+          pequeño proyecto familiar y hoy sigue elaborando cada sabor en lotes
+          chicos, sin apuros ni atajos.
+        </p>
+      </section>
+
+      <section class="contact" id="contacto" aria-labelledby="contact-title">
+        <article class="contact-intro">
+          <p class="eyebrow">Hablemos</p>
+          <h2 id="contact-title">Siempre hay lugar para una cucharada más.</h2>
+          <p>
+            ¿Querés hacer un pedido, organizar un evento o simplemente decir
+            hola? Escribinos.
+          </p>
+          <address>
+            <strong>Bruma Palermo</strong><br />
+            Gurruchaga 1842, CABA<br />
+            Martes a domingos · 12 a 00 h
+          </address>
+        </article>
+
+        <form action="#" method="post">
+          <p class="field">
+            <label for="nombre">Nombre</label>
+            <input
+              id="nombre"
+              name="nombre"
+              type="text"
+              placeholder="Tu nombre"
+              required
+            />
+          </p>
+          <p class="field">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="nombre@email.com"
+              required
+            />
+          </p>
+          <p class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="5"
+              placeholder="¿En qué podemos ayudarte?"
+              required
+            ></textarea>
+          </p>
+          <button class="button button-primary" type="submit">
+            Enviar mensaje
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a
+        class="brand footer-brand"
+        href="index.html"
+        aria-label="Bruma Helados, inicio"
+      >
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span>Bruma</span>
+      </a>
+      <address>Gurruchaga 1842 · Palermo, CABA</address>
+      <ul class="social-links" aria-label="Redes sociales">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">TikTok</a></li>
+      </ul>
+      <p>© 2025 Bruma Helados</p>
+    </footer>
+  </body>
+</html>
